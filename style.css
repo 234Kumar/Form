@@ -1,0 +1,83 @@
+body{
+    background: url("./img/anders-jilden-O85h02qZ24w-unsplash.jpg");
+    background-size: 100vw;
+}
+.con{
+    width: 500px;
+    height: 610px;
+    border: 2px solid red ;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(255, 208, 0, 0.467),rgba(255, 0, 0, 0.48));
+    box-shadow:5px 5px 50px 10px black ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.h{
+    text-align: center;
+}
+.form{
+    
+    padding: 10px;
+    background: linear-gradient(rgba(255, 153, 0, 0.384),rgba(255, 0, 225, 0.419));
+}
+.ak{
+    text-transform:uppercase; 
+    font-weight: bold;
+
+}
+.add{
+    height: 60px;
+    width: 300px;
+}
+.rs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sub{
+    background: red;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sub:hover{
+    background: rgb(243, 247, 4);
+}
+.res{
+    background: red;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.res:hover{
+    background: rgb(219, 243, 6);
+}
+.in{
+    border-radius: 5px;
+    padding: 3px;
+}
+.in:hover{
+    background: rgb(143, 196, 236);
+}
+.co{
+    width: 400px;
+    height: 100px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.575),rgba(255, 0, 0, 0.322)); */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-95%);
+}
